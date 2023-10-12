@@ -1,0 +1,9 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Castoro", serif;
+}
+body,html{
+    list-style: none;
+}

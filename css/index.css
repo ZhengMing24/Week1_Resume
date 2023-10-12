@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.cointainer .header {
+  max-width: 1296px;
+  margin: 0 auto;
+  font-size: 60px;
+  padding-top: 160px;
+  letter-spacing: 0.12em;
+  line-height: 50px;
+  text-align: center;
+}
+.cointainer .header h1 {
+  text-align: left;
+}
+.cointainer .header h2 {
+  text-align: right;
+}
+.cointainer .banner {
+  background-color: #efefef;
+  margin-bottom: 48px;
+}
+.cointainer .banner .bannerContent {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+.cointainer .banner .bannerContent p {
+  width: 660px;
+  height: 300px;
+  font-size: 32px;
+  margin-left: auto;
+}
+.cointainer .body {
+  max-width: 1296px;
+  margin: 0 auto;
+  margin-bottom: 172px;
+}
+.cointainer .body P {
+  font-size: 24px;
+}
+.cointainer .body h2 {
+  width: 636px;
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+  font-size: 48px;
+}
+.cointainer .body ul {
+  list-style: none;
+  padding: 0; /* 移除ul默認的內邊距 */
+  margin: 0; /* 移除ul默認的外邊距 */
+}
+.cointainer .body ul li {
+  width: 600px;
+  font-size: 24px;
+}
+.cointainer .body ul h3 {
+  color: #949494;
+  font-size: 20px;
+}
+.cointainer .bottom {
+  background-color: #000000;
+}
+.cointainer .bottom .bottemContent {
+  max-width: 1296px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cointainer .bottom .bottemContent img {
+  width: 64px;
+  height: 64px;
+  padding: 40px 5px;
+}/*# sourceMappingURL=index.css.map */

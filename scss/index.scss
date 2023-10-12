@@ -1,0 +1,75 @@
+.cointainer {
+  .header {
+    max-width: 1296px;
+    margin: 0 auto;
+    font-size: 60px;
+    padding-top: 160px;
+    letter-spacing: 0.12em;
+    line-height: 50px;
+    text-align: center;
+    h1 {
+      text-align: left;
+    }
+    h2 {
+      text-align: right;
+    }
+  }
+
+  .banner {
+    background-color: #efefef;
+    margin-bottom: 48px;
+    .bannerContent {
+      max-width: 1296px;
+      margin: 0 auto;
+      padding-top: 48px;
+      p {
+        width: 660px;
+        height: 300px;
+        font-size: 32px;
+        margin-left: auto;
+      }
+    }
+  }
+
+  .body {
+    max-width: 1296px;
+    margin: 0 auto;
+    margin-bottom: 172px;
+    P {
+      font-size: 24px;
+    }
+    h2 {
+      width: 636px;
+      color: #ae0000;
+      border-bottom: 3px solid #ae0000;
+      font-size: 48px;
+    }
+    ul {
+      list-style: none;
+      padding: 0; /* 移除ul默認的內邊距 */
+      margin: 0; /* 移除ul默認的外邊距 */
+      li {
+        width: 600px;
+        font-size: 24px;
+      }
+      h3 {
+        color: #949494;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .bottom {
+    background-color: #000000;
+    .bottemContent {
+      max-width: 1296px;
+      margin: 0 auto;
+      text-align: center;
+      img {
+        width: 64px;
+        height: 64px;
+        padding: 40px 5px;
+      }
+    }
+  }
+}
