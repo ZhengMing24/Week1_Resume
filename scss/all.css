@@ -1,0 +1,133 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", serif;
+}
+
+body, html {
+  list-style: none;
+}
+
+.cointainer .header {
+  max-width: 1296px;
+  margin: 0 auto;
+  font-size: 60px;
+  padding-top: 160px;
+  letter-spacing: 0.12em;
+  line-height: 50px;
+  text-align: center;
+}
+.cointainer .header h1 {
+  text-align: left;
+}
+.cointainer .header h2 {
+  text-align: right;
+}
+.cointainer .banner {
+  background-color: #efefef;
+  margin-bottom: 48px;
+}
+.cointainer .banner .bannerContent {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+.cointainer .banner .bannerContent p {
+  width: 660px;
+  height: 300px;
+  font-size: 32px;
+  margin-left: auto;
+}
+.cointainer .body {
+  max-width: 1296px;
+  margin: 0 auto;
+  margin-bottom: 172px;
+}
+.cointainer .body P {
+  font-size: 24px;
+}
+.cointainer .body h2 {
+  width: 636px;
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+  font-size: 48px;
+}
+.cointainer .body ul {
+  list-style: none;
+  padding: 0; /* 移除ul默認的內邊距 */
+  margin: 0; /* 移除ul默認的外邊距 */
+}
+.cointainer .body ul li {
+  width: 600px;
+  font-size: 24px;
+}
+.cointainer .body ul h3 {
+  color: #949494;
+  font-size: 20px;
+}
+.cointainer .bottom {
+  background-color: #000000;
+}
+.cointainer .bottom .bottemContent {
+  max-width: 1296px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cointainer .bottom .bottemContent img {
+  width: 64px;
+  height: 64px;
+  padding: 40px 5px;
+}/*# sourceMappingURL=all.css.map */
